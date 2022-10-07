@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(206, 47%, 93%);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+}
+
+.card{
+    height: 725px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.18);
+    -moz-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.18);
+}
+
+.join{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 255px;
+    padding: 10px 25px 0 25px;
+    background-color: white;
+}
+
+.join-our{
+    font-size: 10px;
+    color: hsl(175, 52%, 44%);
+}
+
+.thirty-days{
+    margin-top: 20px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+}
+
+.gain{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 13.5px;
+    color: hsl(227, 7%, 62%);
+}
+
+.subscription{
+    padding: 20px 25px 0 25px;
+    background-color: hsl(179, 61%, 44%);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.monthly{
+    color: white;
+    font-size: 18.5px;
+}
+
+.price{
+    padding-top: 15px;
+    font-size: 30px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.price span{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    color: hsl(181, 67%, 68%);
+}
+
+.access{
+    padding-top: 7px;
+    color: hsl(179, 92%, 90%);
+    font-size: 15px;
+}
+
+.sign-up{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    width: 265px;
+    height: 45px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: -1px -1px 20px 4px rgba(0,0,0,0.13);
+    -webkit-box-shadow: -1px -1px 20px 4px rgba(0,0,0,0.13);
+    -moz-box-shadow: -1px -1px 20px 4px rgba(0,0,0,0.13);
+}
+
+.sign-up:hover{
+    cursor: pointer;
+    background-color: hsl(75, 100%, 61%);
+}
+
+.why-us{
+    background-color: hsl(179, 47%, 56%);
+    height: 240px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.why-container{
+    color: white;
+    font-size: 19px;
+    padding: 25px 22px 20px 22px;
+}
+
+.why-text{
+    font-size: 13px;
+    padding: 0 22px 20px 22px;
+    color: hsl(182, 51%, 88%);
+    line-height: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1440px){
+    .card{
+      width: 638px;
+      height: 470px;
+    }
+
+    .join{
+        height: 195px;
+        padding: 30px 40px 0 40px;
+    }
+
+    .join-our{
+        font-size: 12px;
+        
+    }
+
+    .thirty-days{
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+    .gain{
+        margin-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .blue-container{
+        display: flex;
+        height: 260px;
+    }
+
+    .subscription{
+        height: auto;
+        width: 260px;
+        padding: 40px 40px;
+    }
+    
+    .sign-up{
+        width: 240px;
+    }
+
+    .why-us{
+        padding: 40px 40px;
+        width: 335px;
+        height: auto;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .why-text{
+        padding: 10px 0 0 0;
+    }
+
+    .why-container{
+        padding: 0;
+    }
+}
